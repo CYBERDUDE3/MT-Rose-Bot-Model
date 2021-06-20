@@ -44,13 +44,9 @@ Hey there! My name is *{}*.
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-DONATE_STRING = """ *🙋‍♂️Hello Bro or Sis*!
+DONATE_STRING = """ *🙋‍♂️Hello Bro or Sir*!
 
-*👨‍💻Editing* :- *@Mo_Tech_Group*
-
-*😔Donation Link Coming Soon😔*
-
-*👉Clcik 👉 /donate*
+*👨‍💻Editing* :- *Hacker_Jr*
 """
 
 IMPORTED = {}
