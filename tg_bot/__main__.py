@@ -25,7 +25,7 @@ PM_START_TEXT = """
 
 *
 എന്നെ നിങ്ങളുടെ ഗ്രൂപ്പിൽ ആഡ് ചെയ്യാൻ നോക്കി സമയം കളയണ്ട
- എന്നെ @KLR_CHAT ഗ്രൂപ്പിൽ മാത്രമേ ആഡ് ചെയ്യാൻ കഴിയൂ...!!!.*
+ എന്നെ ഇ ഗ്രൂപ്പിൽ മാത്രമേ ആഡ് ചെയ്യാൻ കഴിയൂ...!!!.*
 
 """
 
@@ -46,7 +46,7 @@ And the following:
 
 DONATE_STRING = """ *🙋‍♂️Hello Bro or Sir*!
 
-*👨‍💻Editing* :- *Hacker_Jr*
+*👨‍💻Editing* :- *@CYBER_YT1*
 """
 
 IMPORTED = {}
@@ -144,9 +144,9 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="👨‍💼 Master", url="t.me/Hacker_Jr"),  InlineKeyboardButton(text="Master Info 💯", url="https://t.me/Hacker_Jr_Info")],                   
-                     [InlineKeyboardButton(text="🎥 Channel", url="t.me/Kerala_Rockers"), InlineKeyboardButton(text="Group 🎬", url="t.me/KLR_CHAT")],                   
-                     [InlineKeyboardButton(text="📺 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗠𝗮𝗶𝗻 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 📺", url="t.me/Kerala_Rockers")]]))
+                    [[InlineKeyboardButton(text="👨‍💼 Master", url="t.me/CYBER_YT1"),  InlineKeyboardButton(text="Master Info 💯", url="https://t.me/M_STER_TECH")],                   
+                     [InlineKeyboardButton(text="📲CHANNEL👨🏻‍💻", url="https://t.me/M_STER_TECH"), InlineKeyboardButton(text="👨🏻‍💻GROUP📲", url="https://t.me/M_SRER_TECH_GROUP")],                   
+                     [InlineKeyboardButton(text="👨🏻‍💻YOUTUBE CHANNEL👨🏻‍💻", url="https://youtu.be/HvXBQoHrh04")]]))
     else:
         update.effective_message.reply_text("ചത്തിട്ടില്ലാ...")
 
